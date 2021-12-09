@@ -13,8 +13,8 @@ namespace ThirdPartyLibraries
     {
         public static void ImplementCSVInJSON() 
         {
-            string importFilePath = @"E:\GitDemo\ThirdPartyLibraries\ThirdPartyLibraries\Files\address.csv";
-            string exportFilePath = @"E:\GitDemo\ThirdPartyLibraries\ThirdPartyLibraries\Files\Export.json";
+            string importFilePath = @"E:\GitDemo\ThirdPartyLibrary-Architecture\ThirdPartyLibraries\ThirdPartyLibraries\Files\JsonData.csv";
+            string exportFilePath = @"E:\GitDemo\ThirdPartyLibrary-Architecture\ThirdPartyLibraries\ThirdPartyLibraries\Files\Export.json";
 
             using (var reader = new StreamReader(importFilePath)) // Readaing CSV File
             using (var csv = new CsvReader(reader, CultureInfo.CurrentCulture)) 
